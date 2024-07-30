@@ -1,0 +1,38 @@
+{
+  "name": "viteseed",
+  "version": "1.0.0",
+  "description": "Plant the seed of your project with ViteSeed, a fast and solid foundation for your development.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "vite -- --1080",
+    "build": "vite build",
+    "preview": "vite preview -- -port 1081",
+    "type-check": "tsc --noEmit",
+    "prebuild": "npm run type-check",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielpretel/viteseed.git"
+  },
+  "keywords": [
+    "vite",
+    "typescript",
+    "seed",
+    "project"
+  ],
+  "author": "Gabriel Pretel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielpretel/viteseed/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/gabrielpretel/viteseed#readme",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "sass": "^1.77.8",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5",
+    "vite-plugin-checker": "^0.7.2"
+  }
+}
