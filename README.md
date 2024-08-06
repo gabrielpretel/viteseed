@@ -12,6 +12,7 @@ ViteSeed is a starter template designed to help you kickstart your project with 
 - **TypeScript**: Strongly typed JavaScript.
 - **SCSS**: CSS preprocessor for styling.
 - **Type Checking**: Ensures code quality with `vite-plugin-checker`.
+- **Legacy Browser Support**: Compatibility with older browsers using `@vitejs/plugin-legacy`.
 
 ## Getting Started
 
@@ -87,6 +88,10 @@ Make sure you have Node.js and npm installed. You can download them from [nodejs
 - `vite.config.ts`: Vite configuration file.
 
 - `tsconfig.json`: TypeScript configuration file.
+
+## Browser compatibility
+
+To ensure compatibility with older browsers, ViteSeed uses the @vitejs/plugin-legacy plugin. This plugin adds support for legacy browsers by transpiling the necessary JavaScript code.
 
 ## Contributing
 
